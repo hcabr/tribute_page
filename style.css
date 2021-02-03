@@ -1,10 +1,9 @@
 body{
-    border: solid;
     text-align: center;
 }
 
 header{
-    border: solid;
+    margin-bottom: -15px;
 }
 
 #main{
@@ -15,18 +14,28 @@ header{
    /* border: solid; */
     font-size: 100px;
     margin: -10px 0 -25px 0;
+}
+#undertitle{
     
+    margin-bottom: 25px;
 }
 
 #img-div{
-    border: solid;
     width: 100%;
     height: auto;
 }
 
+#img-caption{
+    font-style: italic;
+    margin-top: -2%;
+}
+
 img{
-    max-width: 50%;
+    max-width: 75%;
     height: auto;
 }
 
+hr {
+    border: 3px solid;
+}
 
